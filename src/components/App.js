@@ -1,16 +1,17 @@
-// About.js
 import React from "react";
-import { image } from "../data/user";
+import Navbar from "./NavBar"
+import Home from "./Home"
+import About from "./About"
 
-function About() {
+function App() {
   return (
-    <div id="about">
-      <h2>About Me</h2>
-      <p>Any content of your choosing</p>
-      <img src={image} alt="I made this" />
+    <div>
+      <Navbar/>
+      <Home />
+      <About />
     </div>
   );
 }
 
-export default About;
+export default App;
 
